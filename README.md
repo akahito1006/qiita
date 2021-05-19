@@ -14,6 +14,7 @@ Things you may want to cover:
 ```
 cd ./goodapp
 bundle install
+rails db:migrate
 rails s
 ```
 ## gems
