@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <%= form_with model: @album do |f| %>
+        <%= f.attachment_field :image %>
+        <%= f.submit class:"btn btn-success" %>
+      <% end %>
+    </div>
+  </div>
+</div>
