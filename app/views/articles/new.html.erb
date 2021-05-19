@@ -1,0 +1,17 @@
+<%= form_with model: @article do |f| %>
+  <div class="row mb-4">
+    <div class="col">
+      親モデル；Articleのタイトル・・・<%= f.text_field :title %>
+    </div>
+  </div>
+  <div class="row mb-4">
+    <div class="col">
+      子モデル；ArticleImageへの添付・・・<%= f.attachment_field :article_images_images, multiple: true %>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <%= f.submit "記事を作成する", class:"btn btn-success" %>
+    </div>
+  </div>
+<% end %>
