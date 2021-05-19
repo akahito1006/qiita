@@ -1,0 +1,19 @@
+<% @articles.each do |article| %>
+  <div class="row">
+    <div class="col">
+      <h2><%= article.title %></h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+    <% article.article_images.each do |img| %>
+      <%= attachment_image_tag img, :image, class:"img-thumbnail", width: "300" %>
+    <% end %>
+    </div>
+  </div>
+<% end %>
+<div class="row">
+  <div class="col">
+    <%= link_to "新規投稿画面へ", new_article_path, class:"h4" %>
+  </div>
+</div>
