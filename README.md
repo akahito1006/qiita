@@ -20,4 +20,4 @@ rails s
 ```
 ## gems
 it would depend on the branch.<br>
-plz go to the branch and see */goodapp/Gemfile*
+plz go to the branch and see *Gemfile*
