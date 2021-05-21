@@ -9,6 +9,7 @@ Things you may want to cover:
 - Ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
 - Rails 5.2.6
 - ImageMagick-7.0.11
+- Bootstrap 5.0.0.beta1 css only (CDN powered by jsDelivr)
 - Amazon Linux2(Karoo) by AWS Cloud9
 ## how to run this application
 ```
